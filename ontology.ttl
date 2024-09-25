@@ -16,14 +16,14 @@
 
 ###  https://raw.githubusercontent.com/V4L3/hmas-ontology/refs/heads/main/ontology.ttl#hasObservableProperty
 :hasObservableProperty rdf:type owl:ObjectProperty ;
-                       rdfs:domain :CartagoArtifact ;
+                       rdfs:domain :Artifact ;
                        rdfs:range :ObservableProperty ;
                        rdfs:label "Has Observable Property" .
 
 
 ###  https://raw.githubusercontent.com/V4L3/hmas-ontology/refs/heads/main/ontology.ttl#hasAnnotation
 :hasAnnotation rdf:type owl:ObjectProperty ;
-               rdfs:domain :CartagoArtifact ;
+               rdfs:domain :Artifact ;
                rdfs:range :Annotation ;
                rdfs:comment "Associates a Cartago Artifact with an annotation." ;
                rdfs:label "Has Annotation" .
@@ -39,7 +39,7 @@
 
 ###  https://raw.githubusercontent.com/V4L3/hmas-ontology/refs/heads/main/ontology.ttl#hasVectorClock
 :hasVectorClock rdf:type owl:ObjectProperty ;
-                rdfs:domain :CartagoArtifact ;
+                rdfs:domain :Artifact ;
                 rdfs:range :DynamicVectorClock ;
                 rdfs:comment "Associates a Cartago Artifact with a Dynamic Vector Clock." ;
                 rdfs:label "Has Vector Clock" .
@@ -73,8 +73,8 @@
             rdfs:label "Annotation" .
 
 
-###  https://raw.githubusercontent.com/V4L3/hmas-ontology/refs/heads/main/ontology.ttl#CartagoArtifact
-:CartagoArtifact rdf:type owl:Class ;
+###  https://raw.githubusercontent.com/V4L3/hmas-ontology/refs/heads/main/ontology.ttl#Artifact
+:Artifact rdf:type owl:Class ;
                  rdfs:comment "Represents a CArtAgO artifact in the HMAS." ;
                  rdfs:label "Cartago Artifact" .
 
